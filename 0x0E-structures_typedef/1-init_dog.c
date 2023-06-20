@@ -1,18 +1,17 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 
 /**
- * init_dog -  defines struct odg
- * @d: pointer to structure
- * @name: pointer to the name of the dog
- * @age: pointer to the age of the dog
- * @owner: pointer to the owner of the dog
- *
+ * init_dog - creates struct dog
+ * @d: pointer for struct dog
+ * @name: name of dog
+ * @age: age of dof
+ * @owner: information about owner
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL)
+	/* Passing to stucture from main */
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
