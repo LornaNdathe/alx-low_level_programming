@@ -1,4 +1,3 @@
-
 #ifndef DOG_H
 #define DOG_H
 
@@ -8,7 +7,6 @@
  * @age: age of dog
  * @owner: name of owner 
  *
- * Description: Longer description
  */
 struct dog
 {
@@ -20,6 +18,7 @@ struct dog
 /**
  * dog_t - struct dog typdef
  */
+
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
