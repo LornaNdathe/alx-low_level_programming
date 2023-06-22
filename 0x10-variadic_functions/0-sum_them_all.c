@@ -3,23 +3,23 @@
 
 /**
  * sum_them_all - Returns the sum of all its paramters.
- * @n: how many parameters
- * @...:  variable no of paramters to return sum of.
+ * @n: The number of paramters passed to the function.
+ * @...: A variable number of paramters to calculate the sum of.
  *
- * Return: sum of parameters else if n is o then 0
+ * Return: If n == 0 - 0.
+ *         Otherwise - the sum of all parameters.
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list p;
-	unsigned int a, sum = 0;
+	va_list ap;
+	unsigned int i, sum = 0;
 
-	va_start(p, n);
+	va_start(ap, n);
 
-	for (a = 0; a < n; a++)
-		sum += va_arg(p, int);
+	for (i = 0; i < n; i++)
+		sum += va_arg(ap, int);
 
-	va_end(p);
+	va_end(ap);
 
 	return (sum);
 }
