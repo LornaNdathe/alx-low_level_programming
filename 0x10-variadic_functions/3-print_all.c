@@ -1,11 +1,8 @@
 #include "variadic_functions.h"
 
-
-
 /**
  * print_all - prints anything
- *
- * @format: types of arguments passed
+ *@format: types of arguments passed
  *
  * Return: void
  */
@@ -13,7 +10,7 @@
 void print_all(const char * const format, ...)
 {
 	int a = 0;
-	char *string, *space= "";
+	char *string, *space = "";
 
 	va_list lst;
 
