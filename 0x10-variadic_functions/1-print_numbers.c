@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - Prints numbers, followed by line.
+ * print_numbers - Prints numbers
  * @separator: pointer  printed between numbers.
- * @n amount of integers passed
+ * @n: amount of integers passed
  * @...: A variable number of numbers to be printed
  */
 
