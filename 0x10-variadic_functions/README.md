@@ -1,4 +1,3 @@
-0x10. C - Variadic functions
 0. Beauty is variable, ugliness is constant
 mandatory
 Write a function that returns the sum of all its parameters.
@@ -17,7 +16,7 @@ You are allowed to use printf
 If separator is NULL, don’t print it
 Print a new line at the end of your function
 
-2. One woman's constant is another woman's variable
+2.. One woman's constant is another woman's variable
 mandatory
 Write a function that prints strings, followed by a new line.
 

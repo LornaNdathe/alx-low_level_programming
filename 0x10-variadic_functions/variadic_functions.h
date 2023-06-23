@@ -10,9 +10,11 @@ void printstring(va_list charlist);
 
 typedef struct characters
 {
-	char *arguments;
-	void (*ptrfunc)(va_list);
-} characters;
+        char *arguments;
+        void (*ptrfunc)(va_list);
+}
+
+characters;
 
 
 int _putchar(char c);
@@ -22,4 +24,3 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 #endif
- 
